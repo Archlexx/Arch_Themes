@@ -1,0 +1,28 @@
+{
+    "name": "arch-themes",
+    "displayName": "Arch Themes",
+    "description": "Custom dark themes for VS Code based on neon aesthetics and high contrast.",
+    "version": "1.0.0",
+    "publisher": "ArchLexx",
+    "icon": "icon.png",
+    "keywords": ["dark", "hacker", "neon", "arch", "black", "green", "red", "pastel"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Archlexx/Arch_Themes"
+    },
+    "engines": {
+        "vscode": "^1.111.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ArcH4ck_black",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ArcH4ck_black.json"
+            }
+        ]
+    }
+}
