@@ -1,11 +1,11 @@
 {
     "name": "arch-themes",
     "displayName": "Arch Themes",
-    "description": "Custom dark themes for VS Code based on neon aesthetics and high contrast.",
+    "description": "A collection of dark themes with neon-pastel accents for developers who value both aesthetics and ergonomics",
     "version": "1.0.0",
     "publisher": "ArchLexx",
     "icon": "icon.png",
-    "keywords": ["dark", "hacker", "neon", "arch", "black", "green", "red", "pastel"],
+    "keywords": ["dark", "pastel", "neon", "arch", "black", "green", "red", "purple", "pink", "carmine", "python", "C#", "Csharp", "javascript", "js", "json"], 
     "repository": {
         "type": "git",
         "url": "https://github.com/Archlexx/Arch_Themes"
@@ -19,9 +19,34 @@
     "contributes": {
         "themes": [
             {
-                "label": "ArcH4ck_black",
+                "label": "ArchGreen",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ArcH4ck_black.json"
+                "path": "./themes/ArchGreen.json"
+            },
+            {
+                "label": "ArchGreen Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ArchGreen_Dark.json"
+            },
+            {
+                "label": "ArchCarmine",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ArchCarmine.json"
+            },
+            {
+                "label": "ArchCarmine Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ArchCarmine_Dark.json"
+            },
+            {
+                "label": "ArchPurple",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ArchPurple.json"
+            },
+            {
+                "label": "ArchPink",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ArchPink.json"
             }
         ]
     }
