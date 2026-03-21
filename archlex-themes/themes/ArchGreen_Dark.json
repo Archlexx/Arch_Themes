@@ -1,5 +1,5 @@
 {
-  "name": "ArcH4ck_black",
+  "name": "ArchGreen_Dark",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -8,12 +8,12 @@
     "class": "#3dde02",
     "struct": "#3dde02",
     "interface": "#22dbf0",
-    "enum": "#5CADD6",
+    "enum": "#f2e207",
     "typeParameter": "#52607A",
     "parameter": "#52607A",
     "variable": "#A3ADC2",
     "property": "#D6995C",
-    "enumMember": "#D6995C",
+    "enumMember": "#b3d402",
     "event": "#7082DB",
     "function": "#D65C85",
     "method": "#D65C85",
@@ -22,7 +22,7 @@
     "macro": "#9470DB",
     "comment": "#52607A",
     "string": "#9470DB",
-    "number": "#b3d402",
+    "number": "#f2e207",
     "regexp": "#5CADD6",
     "operator": "#A3ADC2",
     "constant": "#b495f0",
@@ -40,18 +40,8 @@
       "macro": "#9470DB",
       "variable": "#A3ADC2",
       "property": "#D6995C",
-      "enumMember": "#D6995C",
+      "enumMember": "#b3d402",
       "constant": "#b495f0"
-    },
-    
-    "readonly": {
-      "variable": "#C2C8D6",
-      "property": "#D6995C"
-    },
-    
-    "static": {
-      "variable": "#C25CD6",
-      "property": "#D6995C"
     },
     
     "deprecated": {
@@ -59,26 +49,6 @@
         "foreground": "#52607A",
         "fontStyle": "strikethrough"
       }
-    },
-    
-    "abstract": {
-      "type": "#5CADD6",
-      "class": "#5CADD6",
-      "method": "#D65C85"
-    },
-    
-    "async": {
-      "function": "#D65C85",
-      "method": "#D65C85"
-    },
-    
-    "modification": {
-      "variable": "#A3ADC2",
-      "property": "#D6995C"
-    },
-    
-    "documentation": {
-      "comment": "#588F3D"
     },
     
     "defaultLibrary": {
@@ -100,7 +70,7 @@
       "name": "JSON Keys",
       "scope": "support.type.property-name.json, meta.structure.dictionary.json > string.quoted.json",
       "settings": {
-        "foreground": "#D65C85",
+        "foreground": "#3dde02",
         "fontStyle": "bold"
       }
     },
@@ -108,7 +78,7 @@
       "name": "JSON String Values",
       "scope": "meta.structure.dictionary.value.json > string.quoted.json, meta.structure.array.json > string.quoted.json, meta.structure.dictionary.value.json > string.quoted.double.json, meta.structure.array.json > string.quoted.double.json",
       "settings": {
-        "foreground": "#9470DB"
+        "foreground": "#b495f0"
       }
     },
     {
@@ -146,28 +116,28 @@
       "name": "Python F-string punctuation",
       "scope": "string.interpolated.python punctuation.definition.string.begin, string.interpolated.python punctuation.definition.string.end, meta.fstring.python punctuation.definition.string.begin, meta.fstring.python punctuation.definition.string.end",
       "settings": {
-        "foreground": "#D6995C"
+        "foreground": "#9470DB"
       }
     },
     {
       "name": "Python F-string content",
       "scope": "string.interpolated.python, meta.fstring.python",
       "settings": {
-        "foreground": "#D6995C"
+        "foreground": "#9470DB"
       }
     },
     {
       "name": "Strings general",
       "scope": "string -string.interpolated -string.quoted.docstring, punctuation.definition.string.begin -string.quoted.docstring, punctuation.definition.string.end -string.quoted.docstring",
       "settings": {
-        "foreground": "#D6995C"
+        "foreground": "#9470DB"
       }
     },
     {
       "name": "String Escape",
       "scope": "constant.character.escape, constant.character.interpolation",
       "settings": {
-        "foreground": "#337799"
+        "foreground": "#9470DB"
       }
     },
     {
@@ -178,15 +148,8 @@
       }
     },
     {
-      "name": "Numbers",
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#b3d402"
-      }
-    },
-    {
       "name": "Constants",
-      "scope": "constant.language, constant.other, support.constant",
+      "scope": "constant.language, constant.other, support.constant, constant.numeric",
       "settings": {
         "foreground": "#b495f0",
         "fontStyle": "bold"
@@ -268,7 +231,7 @@
       "name": "Enum Members",
       "scope": "variable.other.enummember, entity.name.variable.enum-member",
       "settings": {
-        "foreground": "#C2D65C"
+        "foreground": "#b3d402"
       }
     },
     {
