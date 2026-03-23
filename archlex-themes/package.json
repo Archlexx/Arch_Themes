@@ -4,6 +4,7 @@
     "description": "A collection of dark themes with neon-pastel accents for developers who value both aesthetics and ergonomics",
     "version": "1.0.0",
     "publisher": "ArchLexx",
+    "readme": "../README.md",
     "icon": "icon.png",
     "keywords": ["dark", "pastel", "neon", "arch", "black", "green", "red", "purple", "pink", "carmine", "python", "C#", "Csharp", "javascript", "js", "json"], 
     "repository": {
